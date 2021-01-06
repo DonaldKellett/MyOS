@@ -8,7 +8,7 @@ Install QEMU and run `qemu-system-i386 -cdrom myos.iso` after `cd`ing into the r
 
 ## Generating the ISO from source
 
-Build a GCC cross-compiler `i686-elf-gcc` for i686-elf, make sure `grub-mkrescue` and `xorriso` are installed, then:
+Build a GCC cross-compiler `i686-elf-gcc` for i686-elf, make sure `grub-mkrescue` and `xorriso` are installed, then `cd` into the root of this repo and do:
 
 ```bash
 $ i686-elf-as boot.s -o boot.o
